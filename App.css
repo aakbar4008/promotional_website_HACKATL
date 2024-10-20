@@ -1,0 +1,185 @@
+/* General styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fraunces', serif;
+  scroll-behavior: smooth;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  font-size: 40em; /* Main header "Circles" */
+  margin-top: 10px;
+  font-style: italics;
+}
+
+h2 {
+  font-size: 25em; /* Other headers */
+  margin-top: 10px;
+  font-style: normal;
+  color: black; /* Black font color for About Us, Features, and Contact Us */
+}
+
+
+p {
+  font-size: 4.5em; /* Smaller text beneath the headers */
+  margin-top: 5px; /* Default margin */
+  font-family: 'Outfit', sans-serif;
+  font-style: normal;
+}
+
+h3 {
+  font-size: 4.5em; /* Smaller text beneath the headers */
+  margin-top: -570px; /* Default margin */
+  font-family: 'Outfit', sans-serif;
+  font-style: normal;
+}
+h4 {
+  font-size: 4.5em; /* Smaller text beneath the headers */
+  margin-top: -115px; /* Default margin */
+  font-family: 'Outfit', sans-serif;
+  font-style: normal;
+  color: #000000;
+}
+
+h5 {
+  font-size: 4.3em; /* Smaller text beneath the headers */
+  margin-top: -190px; /* Default margin */
+  font-family: 'Outfit', sans-serif;
+  font-style: normal;
+  color: #000000;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 5px; /* Default margin for list items */
+}
+
+button {
+  background-color: #B7C998;
+  color: #794A3A;
+  border: none;
+  padding: 15px 30px;
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.5em; /* Button text size adjusted */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #6c6e46;
+}
+
+/* Navigation */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #B7C998;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 1em 0;
+}
+
+.navbar .nav-links li {
+  margin: 0 100px;
+}
+
+.navbar .nav-links a {
+  text-decoration: none;
+  color: #794A3A;
+  font-family: 'Outfit', sans-serif;
+  font-weight: bold;
+  font-size: .7em;
+  transition: color 0.3s;
+}
+
+.navbar .nav-links a:hover {
+  color: #4CAF50;
+}
+
+/* Sections */
+.section {
+  padding: 100px 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-section {
+  background-color: #FACA78;
+  color: #794A3A;
+}
+
+.about-section {
+  background-color: #F57F5B;
+}
+
+.features-section {
+  background-color: #DD5341;
+  color: white;
+}
+
+.contact-section {
+  background-color: #794A3A;
+  color: white;
+}
+
+ul li {
+  margin: 10px 0;
+  font-size: 4.5em; /* Increased list item text size */
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  margin-top: 20px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 4.5em; /* Increased form input text size */
+  font-family: 'Outfit', sans-serif;
+}
+
+form button {
+  width: 107%;
+  padding: 15px;
+  font-size: 1.5em;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer p {
+  font-size: 1.5em;
+  font-family: 'Outfit', sans-serif;
+}
